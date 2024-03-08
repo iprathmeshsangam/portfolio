@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'remixicon/fonts/remixicon.css';
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.LogoImg{
+  width: 200px;
+  margin:10px 8px
+}
+
+.btn button{
+  margin:10px;
+  font-size: larger;
+  padding: 10px 18px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn button:hover{
+  background-color:black;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+.headerContainer{
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+
+/* mainsection css */
+.main-container{
+  max-width: 1300px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.title{
+  margin-top: 1em;
+  font-size: 3em;
+  text-align: center;
+  
+}
+.para
+{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin:0 auto;
+  padding: 10px;
+}
+
+main img{
+  width: 200px;
+  border-radius: 50%;
+}
