@@ -40,6 +40,7 @@
 }
 
 
+
 /* mainsection css */
 .main-container{
   max-width: 1300px;
@@ -56,6 +57,11 @@
 {
   font-size: 1.5em;
   text-align: center;
+}
+
+.face-backg{  
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .main{

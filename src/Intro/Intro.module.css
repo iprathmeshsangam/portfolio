@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    min-height: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+.container h2{
+    font-size: 2em;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.para{
+    max-width: 50%;
+    min-width: 60%;
+    width: auto;
+    font-size: 1rem;
+    line-height: 2.2em;
+}
+.Intro{
+    position: absolute;
+    font-size: 15rem;
+    color: rgb(24, 24, 24);
+    z-index: 0;
+    opacity: 1;
+    left: 0;
+}
+.parts{
+    z-index: 1;
+}

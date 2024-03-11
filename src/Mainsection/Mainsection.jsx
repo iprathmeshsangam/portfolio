@@ -11,7 +11,10 @@ function Mainsection(){
             <main className="main">
                 <h2 className="title">{title} & {title2}</h2>
                 <p className="para">{desc}</p>
-                <img src={video1} alt="image" />
+
+                <div className="face-backg">
+                    <img src={video1} alt="image" />
+                </div>
             </main>
             
         </>

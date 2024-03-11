@@ -1,4 +1,5 @@
 import styles from '../section/Section.module.css'
+import resume from '../assets/resume.pdf';
 
 function Section(){
     return(
@@ -7,7 +8,7 @@ function Section(){
             <h3 className={styles.title}>Interested in Working / Collabrating with me?</h3>
             <p className={styles.para}>I’m Open to discuss product design work and full time Frontend Developer role as well </p>
 
-            <button className={styles.btn}><i className="ri-arrow-down-line"></i> Download Resume</button>
+            <a className={styles.btn} href={resume} download><i className="ri-arrow-down-line"></i> Download Resume</a>
             </div>
         </>
     );
